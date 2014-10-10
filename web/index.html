@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">  
+    <script async type="application/dart" src="tictactoe.dart"></script>
+    <script async src="packages/browser/dart.js"></script>
+    <link rel="stylesheet" href="tictactoe.css">
+  </head>
+  <body>
+    <div id="title">
+      <div id="messages"></div>
+      <h1>TicTacToe</h1>
+    </div>
+    <canvas id="myCanvas" width="300" height="300"></canvas>
+    <br>
+    <div id="controls">
+      <div id="restart">
+        <button id="restart">Restart</button>
+      </div>
+      Players:
+      <input type="radio" id="one-player" name="players" title="You play against the computer." value="1" checked>1
+      <input type="radio" id="two-players" name="players" title="You play against an opponent." value="2">2
+    </div>
+<!--     <button id="minimax">Show list of minimax calculations</button> -->
+    <div id="foot">
+    <br><a href="https://github.com/AntoninSlejska/TicTacToe">Source code on GitHub.</a>
+    </div>
+  </body>
+</html>

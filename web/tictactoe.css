@@ -1,0 +1,29 @@
+
+body {
+  background-color: #F8F8F8;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.2em;
+  margin: 15px;
+}
+
+h1, p {
+  color: #333;
+}
+
+#title {
+  width: 300px;
+}
+
+#controls {
+  width: 300px;
+}
+
+#restart {
+  float: right;
+}
+
+#messages {
+  float: right;
+}
